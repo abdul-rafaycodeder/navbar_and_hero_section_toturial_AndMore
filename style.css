@@ -111,7 +111,7 @@ a {
     transition: all ease-in-out 0.5s;
 }
 
-#left button:hover{
+#left button:hover {
     background-color: black;
     color: white;
 }
@@ -126,11 +126,27 @@ a {
 /* <!-- marquee --> */
 
 
-marquee{
+marquee {
     margin-top: 40px;
     font-size: 50px;
 }
 
-marquee img{
+marquee img {
     width: 340px;
+}
+
+/* main */
+
+#main {
+    margin-top: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
